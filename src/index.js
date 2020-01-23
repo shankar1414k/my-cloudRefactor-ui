@@ -18,8 +18,8 @@ Amplify.configure({
 		userPoolWebClientId: config.cognito.APP_CLIENT_ID,
         oauth: {
             domain: 'manukonda.auth.us-east-2.amazoncognito.com',
-            //redirectSignIn: 'http://'+ window.location.hostname +'/new-application',
-			//redirectSignOut: 'http://'+ window.location.hostname +'/',
+            redirectSignIn: 'http://'+ window.location.hostname +'/new-application',
+			redirectSignOut: 'http://'+ window.location.hostname +'/',
 			//redirectSignIn: 'http://localhost:8080/new-application',
             //redirectSignOut: 'http://localhost:8080/',
             responseType: 'token'
